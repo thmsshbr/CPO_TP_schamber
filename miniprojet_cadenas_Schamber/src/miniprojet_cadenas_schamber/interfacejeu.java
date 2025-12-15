@@ -445,6 +445,9 @@ public class interfacejeu extends javax.swing.JFrame {
             }
             JOptionPane.showMessageDialog(this, message, "Fin de partie", JOptionPane.INFORMATION_MESSAGE);
             
+             fin f = new fin(); 
+             f.setVisible(true);
+             
         }
         // --- Récupération de l'ancien texte du label ---
 String ancien = historique.getText();
